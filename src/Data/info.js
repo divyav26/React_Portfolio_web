@@ -16,6 +16,7 @@ export const Bio = {
     resume:
       "https://drive.google.com/file/d/1y6r-9bLNQrvmJ3qenVrwX5n2_De8CDfO/view",
     linkedin: "https://www.linkedin.com/in/divyamishra26/",
+    email:"divyvmishra@gmail.com"
   };
   
   export const skills = [

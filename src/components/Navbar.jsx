@@ -17,6 +17,7 @@ const Navbar = () => {
        <NavLink to='/about'>About</NavLink>
        <NavLink to='/Projects'>Projects</NavLink>
        <NavLink to='/Contact'>Contact</NavLink>
+
       </nav>
 
       <div className='lg:block text-xl hidden'>
@@ -50,6 +51,7 @@ const Navbar = () => {
                 About
               </NavLink>
             </li>
+           
             <li>
               <NavLink
                 to="/projects"
