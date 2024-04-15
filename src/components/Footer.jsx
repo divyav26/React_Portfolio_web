@@ -16,7 +16,7 @@ const Footer = () => {
             <h1 className='text-2xl font-bold'>Divya Mishra</h1>
             <h2 className='text-xl text-gray-300'>Frontend Developer</h2>
             <p className='text-sm text-gray-300'>HTML|CSS|JAVASCRIPT|REACT JS|TAILWIND CSS|<br />BOOTSTRAB|MYSQL|GITHUB</p>
-            <div className='flex gap-3 mt-2 justify-center items-center'>
+            <div className='flex gap-3 mt-2 lg:justify-start justify-center items-center'>
             <Link to={Bio.github} className='text-xl'><FaGithub /></Link>
             <Link to={Bio.linkedin} className='text-xl'><RxLinkedinLogo /></Link>
             <Link to={Bio.email} className='text-xl'><MdEmail /></Link>
