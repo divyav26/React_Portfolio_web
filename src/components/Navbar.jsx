@@ -17,16 +17,15 @@ const Navbar = () => {
        <NavLink to='/about'>About</NavLink>
        <NavLink to='/Projects'>Projects</NavLink>
        <NavLink to='/Contact'>Contact</NavLink>
-
       </nav>
 
       <div className='lg:block text-xl hidden'>
-      <p className='text-white text-xs flex items-center gap-1 border p-[5px] rounded-lg hover:bg-white hover:text-black'>
-        <FaGithub /><a href={Bio.github}>Github Profile</a></p>
+         <p className='text-white text-xs flex items-center gap-1 border p-[5px] rounded-lg hover:bg-white hover:text-black'>
+         <FaGithub /><a href={Bio.github}>Github Profile</a></p>
       </div>
 
       <div className='lg:hidden text-[1.6rem]'>
-      <AiOutlineMenuFold onClick={()=>setIsOpen(!isOpen)} />
+        <AiOutlineMenuFold onClick={()=>setIsOpen(!isOpen)} />
       </div>
 
     </div>

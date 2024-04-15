@@ -15,7 +15,7 @@ const Home = () => {
         sequence={[
         'Frontend Developer', // Types 'One'
         1000, // Waits 1s
-        'Web Developer', // Deletes 'One' and types 'Two'
+        'Web Developer', // Deletes 'One' and types 'Two'y
         2000, // Waits 2s
         'React Developer', // Types 'Three' without deleting 'Two'
       ]}
