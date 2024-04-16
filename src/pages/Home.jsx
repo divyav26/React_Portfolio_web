@@ -10,7 +10,7 @@ const Home = () => {
     <Layout>
       <div className='w-full md:h-[70vh] h-[90vh] lg:flex md:flex lg:justify-between items-center gap-[2rem] pt-10'>
         <div className='lg:w-[80%] md:w-[50%]'>
-          <h1 className='text-xl font-bold'>Hii, I am {Bio.name}<br/>
+          <h1 className='text-2xl font-bold'>Hii, I am {Bio.name}<br/>
         <TypeAnimation
         sequence={[
         'Frontend Developer', // Types 'One'

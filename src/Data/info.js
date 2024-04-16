@@ -14,7 +14,7 @@ export const Bio = {
     intro:"I am well-versed in HTML, CSS and JavaScript , and other frameworks and libraries,which allows me to implement interactive features. Additionally, I have experirence working with Frontend Projetcs.",
     github: "https://github.com/divyav26",
     resume:
-      "https://drive.google.com/file/d/1y6r-9bLNQrvmJ3qenVrwX5n2_De8CDfO/view",
+      "https://drive.google.com/file/d/1zIbIUpgbWybK0rKeOiwaVcl4y1hdarwZ/view?usp=drivesdk",
     linkedin: "https://www.linkedin.com/in/divyamishra26/",
     email:"divyvmishra@gmail.com"
   };

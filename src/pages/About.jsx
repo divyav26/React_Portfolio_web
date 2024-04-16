@@ -13,7 +13,7 @@ const About = () => {
         animate={{x:0, scale:1}}
         transition={{duration:1}}
             className='lg:w-[50%]'>
-            <h1 className='text-center text-white font-bold mb-2 border-b border-gray-400'>About Me!!</h1>
+            <h1 className='text-center text-2xl text-white font-bold mb-2 border-b border-gray-400'>About Me!!</h1>
             <p className='text-sm text-gray-100'>{Bio.intro}</p>
         </motion.div>
 
