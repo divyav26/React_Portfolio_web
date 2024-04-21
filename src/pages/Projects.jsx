@@ -20,7 +20,7 @@ const Projects = () => {
       </div>
       </div>
 
-        <div className='lg:grid lg:grid-cols-3 gap-[2rem] pb-[8rem]'>
+        <div className='lg:grid lg:grid-cols-3 md:grid md:grid-cols-2 gap-[2rem] pb-[8rem]'>
           {
             projects.map((item)=>{
               return(

@@ -7,7 +7,7 @@ import { motion } from 'framer-motion'
 const About = () => {
   return (
     <Layout>
-      <div className='lg:w-[100%] shadow-md rounded-md p-6 h-[50vh] lg:flex lg:justify-between items-center'>
+      <div className='lg:w-[100%] shadow-md rounded-md p-6 lg:h-[50vh] lg:flex lg:justify-between items-center'>
         <motion.div
         initial={{x:-300,scale:1}}
         animate={{x:0, scale:1}}
@@ -22,11 +22,11 @@ const About = () => {
          animate={{x:0, scale:1}}
          transition={{duration:1}}
         className='pt-[2rem]'>
-          <img src={about} className='w-[100%] lg:h-[35vh] md:h-[30vh] rounded-xl'/>
+          <img src={about} className='w-[100%] lg:h-[35vh] md:h-[30vh] rounded-xl object-cover'/>
         </motion.div>
 
       </div>
-    <div className='w-full h-[80vh] mt-[1rem] lg:flex lg:justify-between items-center gap-[1rem] relative'>
+    <div className='w-full lg:h-[80vh] h-[80vh] mt-[1rem] lg:flex lg:justify-between items-center gap-[1rem] relative'>
       <div className='w-full '>
         <p className='text-center font-bold text-3xl pt-[1.5rem]'>Skills</p>
         <div className='lg:flex gap-[40px]'>

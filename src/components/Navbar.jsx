@@ -8,7 +8,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <>
-    <div className='flex lg:justify-around justify-between bg-black text-white lg:p-3 px-6 py-3 shadow-md'>
+    <div className='flex lg:justify-around justify-between sticky top-0 bg-black text-white lg:p-3 px-6 py-3 shadow-md'>
       <div className='font-bold'>
         <h1 className='text-xl'>Portfolio.</h1>
       </div>
@@ -33,7 +33,7 @@ const Navbar = () => {
     {
       isOpen && (
         <section>
-        <div className="fixed text-gray-400 left-0 top-20 w-full h-screen bg-black/70 px-2 py-[50px] flex-col z-10">
+        <div className="fixed left-0 top-10 w-full h-screen bg-black text-white px-2 py-[50px] flex-col z-10">
           <ul className="flex flex-col fixed w-full h-full items-center mt-4">
             <li>
               <NavLink

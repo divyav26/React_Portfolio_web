@@ -10,12 +10,12 @@ const Footer = () => {
  
   return (
     <>
-    <div className='bg-black text-white w-full h-[50vh] lg:h-[50vh] lg:p-[3rem] p-[2rem]'>
-      <div className='lg:flex lg:justify-around'>
-          <div className='lg:text-left text-center'>
+    <div className='bg-black text-white w-full h-[50vh] md:[20vh] lg:h-[40vh] lg:p-3 lg:px-[6rem] md:px-[2rem] lg:py-[1.5rem] py-3'>
+      <div className='lg:flex lg:justify-between md:flex md:justify-between'>
+          <div className='lg:text-left md:text-left text-center'>
             <h1 className='text-2xl font-bold'>Divya Mishra</h1>
             <h2 className='text-xl text-gray-300'>Frontend Developer</h2>
-            <p className='text-sm text-gray-300'>HTML|CSS|JAVASCRIPT|REACT JS|TAILWIND CSS|<br />BOOTSTRAB|MYSQL|GITHUB</p>
+            <p className='text-sm text-gray-300'>HTML  |  CSS  |  JAVASCRIPT | REACT JS | TAILWIND CSS |<br />BOOTSTRAB | MYSQL | GITHUB</p>
             <div className='flex gap-3 mt-2 lg:justify-start justify-center items-center'>
             <Link to={Bio.github} className='text-xl'><FaGithub /></Link>
             <Link to={Bio.linkedin} className='text-xl'><RxLinkedinLogo /></Link>
@@ -32,7 +32,7 @@ const Footer = () => {
           <NavLink to='/Contact' className='hover:text-red-500'>Contact</NavLink>
           </div>
       </div>
-      <div className='text-gray-500 text-sm text-center mt-[1rem]'>
+      <div className='text-gray-500 text-center lg:text-left md:text-left'>
       &copy; 2024 Divya Mishra. All rights reserved.
     </div>
     </div>
