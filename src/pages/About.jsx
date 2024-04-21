@@ -26,10 +26,10 @@ const About = () => {
         </motion.div>
 
       </div>
-    <div className='w-full lg:h-[80vh] h-[80vh] mt-[1rem] lg:flex lg:justify-between items-center gap-[1rem] relative'>
+    <div className='w-full lg:h-[80vh] md:h-[50vh] h-[80vh] mt-[1rem] lg:flex lg:justify-between items-center gap-[1rem] relative'>
       <div className='w-full '>
         <p className='text-center font-bold text-3xl pt-[1.5rem]'>Skills</p>
-        <div className='lg:flex gap-[40px]'>
+        <div className='lg:flex md:grid md:grid-cols-2 gap-[40px]'>
           {
             skills.map((item)=>{
               return(

@@ -9,7 +9,7 @@ import resume from '../files/DivyaMishra.pdf'
 const Home = () => {
   return (
     <Layout>
-      <div className='w-full md:h-[50vh] lg:h-[90vh] lg:flex lg:justify-between items-center gap-[2rem] md:text-center'>
+      <div className='w-full md:h-[50vh] lg:h-[90vh] lg:flex lg:justify-between items-center gap-[2rem]'>
         <div className='lg:w-[60%]'>
           <h1 className='text-3xl font-bold md:w-[100%]'>Hii, I am {Bio.name}<br/>
         <TypeAnimation
@@ -31,9 +31,9 @@ const Home = () => {
                 <motion.button whileHover={{scale:1.1}} className='rounded-xl mt-[1rem] p-3 px-[2rem] text-sm bg-gradient-to-r from-pink-500 to-blue-500 hover:from-pink-500 hover:to-blue-500'><a href={resume} download="resume">Check Resume</a></motion.button>
         </div>
 
-        <div className='lg:w-[40%] md:mt-[2rem] p-[1rem]'>
+        <div className='lg:w-[40%]  md:mt-[2rem] p-[1rem]'>
           <div className=''>
-            <img src={hero}  alt='hero_img' className='rounded-full md:w-[40%] ' />
+            <img src={hero}  alt='hero_img' className='rounded-full lg:w-[100%] md:w-[40%]' />
           </div>
         </div>
       </div>

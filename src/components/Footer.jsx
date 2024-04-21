@@ -10,7 +10,7 @@ const Footer = () => {
  
   return (
     <>
-    <div className='bg-black text-white w-full h-[50vh] md:[20vh] lg:h-[40vh] lg:p-3 lg:px-[6rem] md:px-[2rem] lg:py-[1.5rem] py-3'>
+    <div className='bg-black text-white w-full h-[50vh] lg:h-[40vh] lg:p-3 lg:px-[6rem] md:px-[2rem] lg:py-[1.5rem] py-3'>
       <div className='lg:flex lg:justify-between md:flex md:justify-between'>
           <div className='lg:text-left md:text-left text-center'>
             <h1 className='text-2xl font-bold'>Divya Mishra</h1>
