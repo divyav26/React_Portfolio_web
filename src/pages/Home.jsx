@@ -4,7 +4,7 @@ import { Bio } from '../Data/info'
 import hero from '../img/h3.jpg'
 import { TypeAnimation } from 'react-type-animation'
 import { motion } from 'framer-motion'
-import resume from '../files/DivyaMishra.pdf'
+import resume from '../files/DivyaResume.pdf'
 
 const Home = () => {
   return (
